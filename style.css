@@ -1,0 +1,38 @@
+body {
+  font-family: "arimo";
+  margin: 2em;
+  direction: rtl;
+  text-align: center;
+  background: rgb(124, 255, 64);
+  animation: mymove 5s infinite alternate;
+}
+@keyframes mymove {
+  from {background-color: rgb(160, 255, 123);}
+  to {background-color: rgb(149, 255, 193);}
+}
+.link {
+  text-decoration-color: aqua;
+  color: azure;
+}
+h4, h3, h2 {
+    color: white;
+    text-shadow:
+  0 0px 1px rgba(0, 0, 0, 0.1),
+  0 0px 2.2px rgba(0, 0, 0, 0.079),
+  0 0px 3.6px rgba(0, 0, 0, 0.069),
+  0 0px 5.5px rgba(0, 0, 0, 0.062),
+  0 0px 7.9px rgba(0, 0, 0, 0.056),
+  0 0px 11.2px rgba(0, 0, 0, 0.05),
+  0 0px 15.8px rgba(0, 0, 0, 0.044),
+  0 0px 23px rgba(0, 0, 0, 0.038),
+  0 0px 35.4px rgba(0, 0, 0, 0.031),
+  0 0px 63px rgba(0, 0, 0, 0.021)
+;
+line-height: 12px;
+}
+h2 {
+  padding-top: 30px;
+}
+h3 {
+  padding-top: 17px;
+}
